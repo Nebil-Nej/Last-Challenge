@@ -20,3 +20,62 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}
+
+a,h1,h2,h3,h4, input{
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation part */
+
+.navigation-bar-section{
+  background-color: var(--nav-background);
+  height: auto;
+  padding: .4em 0;
+}
+
+.nav-list-section {
+  display: none;
+}
+
+.nav-list-section.expand{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-toggle {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+}
+
+.logo {
+  width: 3rem;
+}
+
+/* Introduction Section */
+
+/* First Mid Section */
+
+/* Second Mid Section */
+
+/* Footer section */
