@@ -11,36 +11,42 @@
 
 <body>
     <header class="navigation-bar-section">
-        <div class="container row">
+        <div class="container nav-row">
             <button class="nav-toggle"><img src="./images/bars-solid.svg" alt="bars solid image"></button>
-            <div class="logo">
-                <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+            <div class="row">
+                <div class="logo">
+                    <a href="#"><img src="./images/logo.svg" alt="Logo"></a>
+                </div>
+                <nav class="navigation-part">
+                    <ul class="row nav-list-section">
+                        <li class="nav-list"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-list"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-list"><a href="#" class="nav-link">Contact</a></li>
+                        <div class="sign-section">
+                            <li class="nav-list"><a href="#" class="nav-link">Sign In</a></li>
+                            <li class="nav-list"><a href="#" class="nav-link nav-link-btn">Sign Up</a></li>
+                        </div>
+                    </ul>
+                </nav>
             </div>
-            <nav class="navigation-part">
-                <ul class="row nav-list-section">
-                    <li class="nav-list"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-list"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-list"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-list"><a href="#" class="nav-link">Sign In</a></li>
-                    <li class="nav-list"><a href="#" class="nav-link nav-link-btn">Sign Up</a></li>
-                </ul>
-            </nav>
         </div>
     </header>
-    <div class="intro">
-        <div class="intro-head left">
-            <h1>Responsive layouts <span>don't have to be a struggle</span></h1>
-        </div>
-        <div class="intro-paragraph right">
-            <p>Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. </p>
-            <input type="button" class="intro-btn" value="I want to learn" name="learn button" />
+    <div class="intro row">
+        <div class="container">
+            <div class="intro-head left">
+                <h1>Responsive layouts<span> don't have to be a struggle</span></h1>
+            </div>
+            <div class="intro-paragraph right">
+                <p>Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. </p>
+                <input type="button" class="intro-btn" value="I want to learn" name="learn button" />
+            </div>
         </div>
     </div>
-    <main class="main-part">
-        <section class="first-mid-section">
-            <div class="mobile-part">
+    <main class="main-part ">
+        <section class="first-mid-section container row">
+            <div class="mobile-part col">
                 <h3>Mobile-first</h3>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do
@@ -48,7 +54,7 @@
                     labore et dolore magna aliqua. Ut
                     enim ad minim veniam.</p>
             </div>
-            <div class="efficient-part">
+            <div class="efficient-part col">
                 <h3>Efficient</h3>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do
@@ -56,7 +62,7 @@
                     labore et dolore magna aliqua. Ut
                     enim ad minim veniam.</p>
             </div>
-            <div class="done-part">
+            <div class="done-part col">
                 <h3>Done right</h3>
                 <p>Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do
@@ -65,8 +71,8 @@
                     enim ad minim veniam.</p>
             </div>
         </section>
-        <section class="second-mid-section">
-            <div class="left">
+        <section class="second-mid-section row">
+            <div class="left container">
                 <h3>It doesn't have to be so hard</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -80,7 +86,7 @@
                     adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div class="right">
+            <div class="right container row">
                 <div class="col">
                     <h3>Break it down</h3>
                     <p>Lorem ipsum dolor sit amet,
@@ -106,38 +112,42 @@
         </section>
     </main>
     <footer class="bottom-section">
-        <h2>Just Scratching the Surface</h2>
-        <div class="footer-section-one">
-            <h4>About our company</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-        <div class="footer-section-second">
-            <h4>Getting around</h4>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-three">
-            <h4>Other things</h4>
-            <ul>
-                <li><a href="#">Lorem ipsum</a></li>
-                <li><a href="#">dolor</a></li>
-                <li><a href="#">sit amet</a></li>
-                <li><a href="#">consectetur</a></li>
-            </ul>
-        </div>
-        <div class="footer-section-four">
-            <h4>And more</h4>
-            <ul>
-                <li><a href="#">Lorem ipsum</a></li>
-                <li><a href="#">dolor</a></li>
-                <li><a href="#">sit amet</a></li>
-                <li><a href="#">consectetur</a></li>
-            </ul>
+        <div class="container">
+            <h2>Just Scratching the Surface</h2>
+            <div class="footer-row">
+                <div class="footer-section-one">
+                    <h4>About our company</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+                <div class="footer-section-second">
+                    <h4>Getting around</h4>
+                    <ul>
+                        <li><a href="#" class="nav-link">Home</a></li>
+                        <li><a href="#" class="nav-link">About</a></li>
+                        <li><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-three">
+                    <h4>Other things</h4>
+                    <ul>
+                        <li><a href="#" class="nav-link">Lorem ipsum</a></li>
+                        <li><a href="#" class="nav-link">dolor</a></li>
+                        <li><a href="#" class="nav-link">sit amet</a></li>
+                        <li><a href="#" class="nav-link">consectetur</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section-four">
+                    <h4>And more</h4>
+                    <ul>
+                        <li><a href="#" class="nav-link">Lorem ipsum</a></li>
+                        <li><a href="#" class="nav-link">dolor</a></li>
+                        <li><a href="#" class="nav-link">sit amet</a></li>
+                        <li><a href="#" class="nav-link">consectetur</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="./script.js"></script>
